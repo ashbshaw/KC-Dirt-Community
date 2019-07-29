@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+	<title>KC Dirt Community</title>
+	<meta charset="utf-8">
+	<!--[if IE]>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<![endif]-->
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/animations.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/main.css" class="color-switcher-link">
+	<link rel="stylesheet" href="css/shop.css" class="color-switcher-link">
+	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+	<!--[if lt IE 9]>
+		<script src="js/vendor/html5shiv.min.js"></script>
+		<script src="js/vendor/respond.min.js"></script>
+		<script src="js/vendor/jquery-1.12.4.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+		<!--[if lt IE 9]>
+			<div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
+		<![endif]-->
+		<div class="preloader">
+			<div class="preloader_image"></div>
+		</div>
+		<!-- search modal -->
+		<div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal"> <button
+				type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">
+					<i class="rt-icon2-cross2"></i>
+				</span>
+			</button>
+			<div class="widget widget_search">
+				<form method="get" class="searchform search-form form-inline" action="./">
+					<div class="form-group bottommargin_0"> <input type="text" value="" name="search" class="form-control"
+							placeholder="Search keyword" id="modal-search-input"> </div> <button type="submit"
+						class="theme_button no_bg_button">Search</button>
+				</form>
+			</div>
+		</div>
+		<!-- Unyson messages modal -->
+		<div class="modal fade" tabindex="-1" role="dialog" id="messages_modal">
+			<div class="fw-messages-wrap ls with_padding">
+				<!-- Uncomment this UL with LI to show messages in modal popup to your user: -->
+				<!--
+			<ul class="list-unstyled">
+				<li>Message To User</li>
+			</ul>
+			-->
+			</div>
+		</div>
+		<!-- eof .modal -->
+		<!-- wrappers for visual page editor and boxed version of template -->
+		<div id="canvas">
+			<div id="box_wrapper">
+				<!-- template sections -->
+				<section
+					class="page_topline ds table_section table_section_lg section_padding_top_15 section_padding_bottom_15 columns_margin_0">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-lg-6 text-center text-lg-left hidden-xs">
+								<div class="inline-content big-spacing">
+									<div class="page_social">
+										<a class="social-icon socicon-facebook"
+											href="https://www.facebook.com/groups/155098071181218/" target="_blank"
+											title="Facebook"></a>
+										<a class="social-icon socicon-instagram"
+											href="https://www.instagram.com/kc_dirt_community/" target="_blank"
+											title="Instagram"></a>
+										<!-- <a class="social-icon socicon-google" href="#" title="Google Plus"></a> 
+										<a class="social-icon socicon-linkedin" href="#" title="Linkedin"></a> 
+										<a class="social-icon socicon-youtube" href="#" title="Youtube"></a>  -->
+									</div> <span class="xs-block">
+									</span>
+								</div>
+							</div>
+							<div class="col-lg-6 text-center text-lg-right">
+								<div id="topline-animation-wrap">
+									<div id="topline-hide" class="inline-content big-spacing"> <span class="hidden-xs">
+										</span> <span class="greylinks hidden-xs">
+											<i class="fa fa-pencil highlight3 rightpadding_5" aria-hidden="true"></i>
+											<a href="mailto:kcdirtcommunity@gmail.com">kcdirtcommunity@gmail.com</a>
+										</span>
+										<div class="xs-block">
+											<ul class="inline-list menu greylinks">
+												<li class="dropdown"> <a id="search-show" href="./">
+														<i class="fa fa-search"></i>
+													</a> </li>
+											</ul>
+										</div>
+									</div>
+									<div id="topline-show" class="widget widget_search">
+										<form method="get" class="searchform inline-form" action="./">
+											<div class="form-group-wrap">
+												<div class="form-group"> <label class="sr-only"
+														for="topline-widget-search">Search for:</label> <input
+														id="topline-widget-search" type="text" value="" name="search"
+														class="form-control" placeholder="Enter Keyword..."> <a href="./"
+														id="search-close">
+														<i class="fa fa-close"></i>
+													</a> </div> <button type="submit"
+													class="theme_button no_bg_button color1">ok</button>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<header class="page_header header_white toggler_xs_right columns_margin_0">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-sm-12 display_table">
+								<div class="header_left_logo display_table_cell"> <a href="./" class="logo logo_with_text">
+										<img src="images/kcdc_logo.png" alt="logo">
+										<span class="logo_text">
+											KC Dirt Community
+											<small class="highlight4">Trails with Friends</small>
+										</span>
+									</a> </div>
+								<div class="header_mainmenu display_table_cell text-right">
+									<!-- main nav start -->
+									<nav class="mainmenu_wrapper">
+										<ul class="mainmenu nav sf-menu">
+											<li class="active"> <a href="index.html">Home</a>
+											</li>
+											<li> <a href="about.html">About</a>
+												<ul>
+													<li> <a href="about.html">Our Mission</a> </li>
+													<li> <a href="team.html">Group Events</a>
+													</li>
+													<li> <a href="donate.html">Council Members</a> </li>
+													<li> <a href="timetable.html">Contact Us</a> </li>
+													<li> <a href="faq.html">FAQ</a>
+													</li>
+												</ul>
+											</li>
+											<!-- eof pages -->
+											<!-- shop -->
+											<li> <a href="membership.html">Membership</a>
+											</li>
+											<!-- eof shop -->
+											<!-- contacts -->
+											<li> <a href="friends.html">Friends of KCDC</a>
+											</li>
+											<!-- eof contacts -->
+											<!-- shop -->
+											<!-- <li> <a href="shop.html">Store</a>
+												<ul>
+													<li> <a href="shop.html">Store</a> </li>
+													<li> <a href="shop-product.html">Single Product</a> </li>
+													<li> <a href="shop-cart.html">Shopping Cart</a> </li>
+													<li> <a href="shop-checkout.html">Checkout</a> </li>
+													<li> <a href="shop-register.html">Registration</a> </li>
+												</ul>
+											</li> -->
+											<!-- eof shop -->
+										</ul>
+									</nav>
+									<!-- eof main nav -->
+									<!-- header toggler --><span class="toggle_menu"><span></span></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</header>
+			<section class="page_breadcrumbs ds background_cover section_padding_top_65 section_padding_bottom_65">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<h2>Group Runs</h2>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="ls section_padding_top_100 section_padding_bottom_100 columns_padding_30">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-10 col-sm-push-1">
+							<article class="post side-item side-md content-padding with_border bottom_color_border left loop-color">
+								<div class="row">
+									<div class="col-md-5">
+										<div class="item-media"> <img src="images/events/08.jpg" alt="">
+											<div class="media-links"> <a class="abs-link" title="" href="event-single-full.html"></a> </div>
+										</div>
+									</div>
+									<div class="col-md-7">
+										<div class="item-content">
+											<header class="entry-header">
+												<div class="entry-meta greylinks inline-content"> <span>
+													<i class="fa fa-calendar highlight" aria-hidden="true"></i>
+													<time datetime="2017-10-03T08:50:40+00:00">6:00 P.M. Every Monday</time>
+												</span> <span>
+													<i class="fa fa-map-marker highlight" aria-hidden="true"></i>
+													Shawnee Mission Park, Marina Lot
+												</span> </div>
+												<h3 class="entry-title small"> <a href="event-single-full.html">Monday Night Run</a> </h3>
+											</header>
+											<p>KC Dirt Community meets each Monday evening at 6:00 P.M. in Shawnee Mission Park.  
+												We run a loop on the mountain bike trails with a 2.5 and 4.5 mile option.  
+												If the mountain bike trails are closed due to wet conditions, we meet at the same
+												place and time to run paved trails.</p>
+												<p>Runs are female led, with all people and paces welcome.  No one gets left behind!  
+												Updates are posted each Monday on our Facebook page.</p>
+										</div>
+									</div>
+								</div>
+							</article>
+							<article class="post side-item side-md content-padding with_border bottom_color_border left loop-color">
+								<div class="row">
+									<div class="col-md-5">
+										<div class="item-media"> <img src="images/events/06.jpg" alt="">
+											<div class="media-links"> <a class="abs-link" title="" href="event-single-full.html"></a> </div>
+										</div>
+									</div>
+									<div class="col-md-7">
+										<div class="item-content">
+											<header class="entry-header">
+												<div class="entry-meta greylinks inline-content"> <span>
+													<i class="fa fa-calendar highlight" aria-hidden="true"></i>
+													<time datetime="2017-10-03T08:50:40+00:00">12:00 P.M. Every Wednesday</time>
+												</span> <span>
+													<i class="fa fa-map-marker highlight" aria-hidden="true"></i>
+													Second Best Coffee
+												</span> </div>
+												<h3 class="entry-title small"> <a href="event-single-full.html">Wednesday Run</a> </h3>
+											</header>
+											<p>We have a group run every Wednesday at noon, starting at Second Best Coffee in Waldo and running
+												an out and back on the Trolley Trail.  All paces welcomed.</p>
+											<p>Please check our Facebook page on Wednesdays for updates.</p>
+										</div>
+									</div>
+								</div>
+							</article>
+							<article class="post side-item side-md content-padding with_border bottom_color_border left loop-color">
+								<div class="row">
+									<div class="col-md-5">
+										<div class="item-media"> <img src="images/events/01.jpg" alt="">
+											<div class="media-links"> <a class="abs-link" title="" href="event-single-full.html"></a> </div>
+										</div>
+									</div>
+									<div class="col-md-7">
+										<div class="item-content">
+											<header class="entry-header">
+												<div class="entry-meta greylinks inline-content"> <span>
+													<i class="fa fa-calendar highlight" aria-hidden="true"></i>
+													<time datetime="2017-10-03T08:50:40+00:00">Saturday Mornings</time>
+												</span> <span>
+													<i class="fa fa-map-marker highlight" aria-hidden="true"></i>
+													Various Trails in the Kansas City Area
+												</span> </div>
+												<h3 class="entry-title small"> <a href="event-single-full.html">Saturday Morning Run</a> </h3>
+											</header>
+											<p>KC Dirt Community members and friends often meet on Saturday mornings for long runs.  
+												Please check the Facebook page for details.</p>
+												<p>If you would like company on your Saturday morning run, feel free to post on 
+													our page or arrange to meet up with other KC Dirt Community members!</p>
+										</div>
+									</div>
+								</div>
+							</article>
+						</div>
+						<!--eof .col-sm-* (main content)-->
+					</div>
+				</div>
+			</section>
+			<footer
+				class="page_footer template_footer ds ms parallax overlay_color section_padding_top_110 section_padding_bottom_100 columns_padding_25">
+			</footer>
+			<section
+				class="ds ms parallax page_copyright overlay_color section_padding_top_30 section_padding_bottom_30">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<p>&copy; Copyright 2019. All Rights Reserved.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<!-- eof #box_wrapper -->
+	</div>
+	<!-- eof #canvas -->
+	<script src="js/compressed.js"></script>
+	<script src="js/selectize.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>

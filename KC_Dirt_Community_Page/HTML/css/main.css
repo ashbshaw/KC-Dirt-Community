@@ -7104,13 +7104,13 @@ a.underline-link {
 @media (min-width: 1200px) {
 	.no-content-padding [class*='col-lg-'] .item-content,
   .full-padding [class*='col-lg-'] .item-content {
-		padding-left: 30px;
+		padding-left: 20px;
 	}
 
 	.no-content-padding [class*='col-lg-'][class*='col-lg-pull'] .item-content,
   .full-padding [class*='col-lg-'][class*='col-lg-pull'] .item-content {
 		padding-left: 0;
-		padding-right: 30px;
+		padding-right: 20px;
 	}
 
 	.no-content-padding .col-lg-12 .item-content,
@@ -7141,7 +7141,7 @@ a.underline-link {
 
 @media (min-width: 1200px) {
 	.vertical-item.big-padding .item-content {
-		padding: 55px;
+		padding: 30px;
 	}
 }
 
