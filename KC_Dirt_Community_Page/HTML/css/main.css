@@ -10863,8 +10863,9 @@ body.active-side-header.slide-right .page_header_side {
 	}
 }
 
+/* USE THIS ONE */
 .page_breadcrumbs.background_cover {
-	background-image: url(../img/parallax/breadcrumbs.jpg);
+	background-image: url(../images/woods_background.jpg);
 }
 
 .page_footer.parallax,
