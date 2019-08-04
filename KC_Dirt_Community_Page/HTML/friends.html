@@ -24,133 +24,121 @@
 </head>
 
 <body>
-		<!--[if lt IE 9]>
-			<div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
-		<![endif]-->
-		<div class="preloader">
-			<div class="preloader_image"></div>
+	<!--[if lt IE 9]>
+		<div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
+	<![endif]-->
+	<div class="preloader">
+		<div class="preloader_image"></div>
+	</div>
+	<!-- search modal -->
+	<div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal"> <button
+			type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">
+				<i class="rt-icon2-cross2"></i>
+			</span>
+		</button>
+		<div class="widget widget_search">
+			<form method="get" class="searchform search-form form-inline" action="./">
+				<div class="form-group bottommargin_0"> <input type="text" value="" name="search" class="form-control"
+						placeholder="Search keyword" id="modal-search-input"> </div> <button type="submit"
+					class="theme_button no_bg_button">Search</button>
+			</form>
 		</div>
-		<!-- search modal -->
-		<div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal"> <button
-				type="button" class="close" data-dismiss="modal" aria-label="Close">
-				<span aria-hidden="true">
-					<i class="rt-icon2-cross2"></i>
-				</span>
-			</button>
-			<div class="widget widget_search">
-				<form method="get" class="searchform search-form form-inline" action="./">
-					<div class="form-group bottommargin_0"> <input type="text" value="" name="search" class="form-control"
-							placeholder="Search keyword" id="modal-search-input"> </div> <button type="submit"
-						class="theme_button no_bg_button">Search</button>
-				</form>
-			</div>
+	</div>
+	<!-- Unyson messages modal -->
+	<div class="modal fade" tabindex="-1" role="dialog" id="messages_modal">
+		<div class="fw-messages-wrap ls with_padding">
+			<!-- Uncomment this UL with LI to show messages in modal popup to your user: -->
+			<!--
+		<ul class="list-unstyled">
+			<li>Message To User</li>
+		</ul>
+		-->
 		</div>
-		<!-- Unyson messages modal -->
-		<div class="modal fade" tabindex="-1" role="dialog" id="messages_modal">
-			<div class="fw-messages-wrap ls with_padding">
-				<!-- Uncomment this UL with LI to show messages in modal popup to your user: -->
-				<!--
-			<ul class="list-unstyled">
-				<li>Message To User</li>
-			</ul>
-			-->
-			</div>
-		</div>
-		<!-- eof .modal -->
-		<!-- wrappers for visual page editor and boxed version of template -->
-		<div id="canvas">
-			<div id="box_wrapper">
-				<!-- template sections -->
-				<section
-					class="page_topline ds table_section table_section_lg section_padding_top_15 section_padding_bottom_15 columns_margin_0">
-					<div class="container-fluid">
-						<div class="row">
-							<div class="col-lg-6 text-center text-lg-left hidden-xs">
-								<div class="inline-content big-spacing">
-									<div class="page_social">
-										<a class="social-icon socicon-facebook"
-											href="https://www.facebook.com/groups/155098071181218/" target="_blank"
-											title="Facebook"></a>
-										<a class="social-icon socicon-instagram"
-											href="https://www.instagram.com/kc_dirt_community/" target="_blank"
-											title="Instagram"></a>
-										<!-- <a class="social-icon socicon-google" href="#" title="Google Plus"></a> 
-										<a class="social-icon socicon-linkedin" href="#" title="Linkedin"></a> 
-										<a class="social-icon socicon-youtube" href="#" title="Youtube"></a>  -->
-									</div> <span class="xs-block">
+	</div>
+	<!-- eof .modal -->
+	<!-- wrappers for visual page editor and boxed version of template -->
+	<div id="canvas">
+		<div id="box_wrapper">
+			<!-- template sections -->
+			<section
+				class="page_topline ds table_section table_section_lg section_padding_top_15 section_padding_bottom_15 columns_margin_0">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-6 text-center text-lg-left hidden-xs">
+							<div class="inline-content big-spacing">
+								<div class="page_social">
+									<a class="social-icon socicon-facebook"
+										href="https://www.facebook.com/groups/155098071181218/" target="_blank"
+										title="Facebook"></a>
+									<a class="social-icon socicon-instagram"
+										href="https://www.instagram.com/kc_dirt_community/" target="_blank"
+										title="Instagram"></a>
+									<!-- <a class="social-icon socicon-google" href="#" title="Google Plus"></a> 
+									<a class="social-icon socicon-linkedin" href="#" title="Linkedin"></a> 
+									<a class="social-icon socicon-youtube" href="#" title="Youtube"></a>  -->
+								</div> <span class="xs-block">
+								</span>
+							</div>
+						</div>
+						<div class="col-lg-6 text-center text-lg-right">
+							<div id="topline-animation-wrap">
+								<div id="topline-hide" class="inline-content big-spacing"> <span class="hidden-xs">
+									</span> <span class="greylinks hidden-xs">
+										<i class="fa fa-pencil highlight3 rightpadding_5" aria-hidden="true"></i>
+										<a href="mailto:kcdirtcommunity@gmail.com">kcdirtcommunity@gmail.com</a>
 									</span>
 								</div>
 							</div>
-							<div class="col-lg-6 text-center text-lg-right">
-								<div id="topline-animation-wrap">
-									<div id="topline-hide" class="inline-content big-spacing"> <span class="hidden-xs">
-										</span> <span class="greylinks hidden-xs">
-											<i class="fa fa-pencil highlight3 rightpadding_5" aria-hidden="true"></i>
-											<a href="mailto:kcdirtcommunity@gmail.com">kcdirtcommunity@gmail.com</a>
-										</span>
-									</div>
-								</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<header class="page_header header_white toggler_xs_right columns_margin_0">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-sm-12 display_table">
+							<div class="header_left_logo display_table_cell"> <a href="./" class="logo logo_with_text">
+									<img src="images/logos/mini.jpg" alt="logo">
+									<span class="logo_text">
+										KC Dirt Community
+										<small class="highlight4">Trails with Friends</small>
+									</span>
+								</a> </div>
+							<div class="header_mainmenu display_table_cell text-right">
+								<!-- main nav start -->
+								<nav class="mainmenu_wrapper">
+									<ul class="mainmenu nav sf-menu">
+										<li class="active"> <a href="index.html">About</a>
+										<!-- eof pages -->
+										<!-- membership -->
+										<li> <a href="membership.html">Membership</a>
+										</li>
+										<!-- eof membership -->
+										<!-- friends -->
+										<li> <a href="friends.html">Friends of KCDC</a>
+										</li>
+										<!-- eof friends -->
+										<!-- shop -->
+										<!-- <li> <a href="shop.html">Store</a>
+											<ul>
+												<li> <a href="shop.html">Store</a> </li>
+												<li> <a href="shop-product.html">Single Product</a> </li>
+												<li> <a href="shop-cart.html">Shopping Cart</a> </li>
+												<li> <a href="shop-checkout.html">Checkout</a> </li>
+												<li> <a href="shop-register.html">Registration</a> </li>
+											</ul>
+										</li> -->
+										<!-- eof shop -->
+									</ul>
+								</nav>
+								<!-- eof main nav -->
+								<!-- header toggler --><span class="toggle_menu"><span></span></span>
 							</div>
 						</div>
 					</div>
-				</section>
-				<header class="page_header header_white toggler_xs_right columns_margin_0">
-					<div class="container-fluid">
-						<div class="row">
-							<div class="col-sm-12 display_table">
-								<div class="header_left_logo display_table_cell"> <a href="./" class="logo logo_with_text">
-										<img src="images/logos/mini.jpg" alt="logo">
-										<span class="logo_text">
-											KC Dirt Community
-											<small class="highlight4">Trails with Friends</small>
-										</span>
-									</a> </div>
-								<div class="header_mainmenu display_table_cell text-right">
-									<!-- main nav start -->
-									<nav class="mainmenu_wrapper">
-										<ul class="mainmenu nav sf-menu">
-											<li class="active"> <a href="index.html">Home</a>
-											</li>
-											<li> <a href="about.html">About</a>
-												<ul>
-													<li> <a href="about.html">Our Mission</a> </li>
-													<li> <a href="team.html">Group Events</a>
-													</li>
-													<li> <a href="donate.html">Council Members</a> </li>
-													<li> <a href="timetable.html">Contact Us</a> </li>
-													<li> <a href="faq.html">FAQ</a>
-													</li>
-												</ul>
-											</li>
-											<!-- eof pages -->
-											<!-- membership -->
-											<li> <a href="membership.html">Membership</a>
-											</li>
-											<!-- eof membership -->
-											<!-- friends -->
-											<li> <a href="friends.html">Friends of KCDC</a>
-											</li>
-											<!-- eof friends -->
-											<!-- shop -->
-											<!-- <li> <a href="shop.html">Store</a>
-												<ul>
-													<li> <a href="shop.html">Store</a> </li>
-													<li> <a href="shop-product.html">Single Product</a> </li>
-													<li> <a href="shop-cart.html">Shopping Cart</a> </li>
-													<li> <a href="shop-checkout.html">Checkout</a> </li>
-													<li> <a href="shop-register.html">Registration</a> </li>
-												</ul>
-											</li> -->
-											<!-- eof shop -->
-										</ul>
-									</nav>
-									<!-- eof main nav -->
-									<!-- header toggler --><span class="toggle_menu"><span></span></span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</header>
+				</div>
+			</header>
 			<section class="page_breadcrumbs ds background_cover section_padding_top_65 section_padding_bottom_65">
 				<div class="container">
 					<div class="row">
