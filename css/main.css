@@ -2789,7 +2789,7 @@ p > i + [class*="rt-icon"] {
 	text-align: center;
 	width: 40px;
 	height: 40px;
-	border: 1px solid #e4e4e4;
+	border: 1px solid red;
 	border-radius: 50%;
 }
 
@@ -2809,7 +2809,7 @@ p > i + [class*="rt-icon"] {
 	font-size: 16px;
 	line-height: 38px;
 	content: "\f105";
-	color: #3a3d44;
+	color: red;
 }
 
 .cs .owl-nav > div:after {
@@ -13396,7 +13396,7 @@ article.comment:before {
 
 .post-related .owl-theme .owl-nav {
 	top: 50%;
-	opacity: 1;
+	opacity: 100;
 	left: -30px;
 	right: -30px;
 }
@@ -14614,7 +14614,7 @@ widget_pages
 .widget_slider .owl-carousel .owl-nav > div:after {
 	font-size: 18px;
 	color: inherit;
-	color: #1f232b;
+	color: #2b1f1f;
 	line-height: 30px;
 }
 
