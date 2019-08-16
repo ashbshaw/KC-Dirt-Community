@@ -4,16 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run build kc-dirt-community"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ashbshaw/KC-Dirt-Community.git"
   },
-  "author": "",
+  "author": "Ashley Shaw",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ashbshaw/KC-Dirt-Community/issues"
   },
-  "homepage": "https://github.com/ashbshaw/KC-Dirt-Community#readme"
+  "homepage": "https://github.com/ashbshaw/KC-Dirt-Community#readme",
+  "dependencies": {
+    "webpack": "^4.39.2"
+  }
 }
