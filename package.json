@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/ashbshaw/KC-Dirt-Community#readme",
   "dependencies": {
-    "webpack": "^4.39.2"
+    "webpack": "^5.75.0"
   }
 }
